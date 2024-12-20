@@ -8,7 +8,8 @@
     "ios": "ns run ios",
     "build:android": "ns build android --release --key-store-path android-keystore.jks --key-store-password $KEYSTORE_PASSWORD --key-store-alias $KEYSTORE_ALIAS --key-store-alias-password $KEY_PASSWORD",
     "build:ios": "ns build ios --release",
-    "clean": "ns clean"
+    "clean": "ns clean",
+    "postinstall": "setup-nativescript-stackblitz"
   },
   "dependencies": {
     "@nativescript/core": "~8.8.0",
@@ -17,11 +18,13 @@
   "devDependencies": {
     "@nativescript/android": "8.8.0",
     "@nativescript/ios": "8.8.0",
+    "@nativescript/preview-cli": "^1.0.14",
+    "@nativescript/stackblitz": "latest",
+    "@nativescript/tailwind": "^2.1.0",
     "@nativescript/types": "~8.8.0",
     "@nativescript/webpack": "~5.0.18",
-    "typescript": "~5.4.0",
-    "@nativescript/tailwind": "^2.1.0",
-    "tailwindcss": "~3.4.0"
+    "tailwindcss": "~3.4.0",
+    "typescript": "~5.4.0"
   },
   "nativescript": {
     "id": "org.nativescript.calculator",
