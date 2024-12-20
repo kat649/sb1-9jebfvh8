@@ -1,0 +1,20 @@
+<GridLayout columns="*, *, *, *" rows="auto, auto, auto, auto">
+    <Button text="7" tap="{{ numberInput }}" class="btn btn-primary m-1" row="0" col="0" />
+    <Button text="8" tap="{{ numberInput }}" class="btn btn-primary m-1" row="0" col="1" />
+    <Button text="9" tap="{{ numberInput }}" class="btn btn-primary m-1" row="0" col="2" />
+    <Button text="÷" tap="{{ operation }}" class="btn btn-warning m-1" row="0" col="3" />
+
+    <Button text="4" tap="{{ numberInput }}" class="btn btn-primary m-1" row="1" col="0" />
+    <Button text="5" tap="{{ numberInput }}" class="btn btn-primary m-1" row="1" col="1" />
+    <Button text="6" tap="{{ numberInput }}" class="btn btn-primary m-1" row="1" col="2" />
+    <Button text="×" tap="{{ operation }}" class="btn btn-warning m-1" row="1" col="3" />
+
+    <Button text="1" tap="{{ numberInput }}" class="btn btn-primary m-1" row="2" col="0" />
+    <Button text="2" tap="{{ numberInput }}" class="btn btn-primary m-1" row="2" col="1" />
+    <Button text="3" tap="{{ numberInput }}" class="btn btn-primary m-1" row="2" col="2" />
+    <Button text="-" tap="{{ operation }}" class="btn btn-warning m-1" row="2" col="3" />
+
+    <Button text="0" tap="{{ numberInput }}" class="btn btn-primary m-1" row="3" col="0" colSpan="2" />
+    <Button text="=" tap="{{ calculate }}" class="btn btn-success m-1" row="3" col="2" />
+    <Button text="+" tap="{{ operation }}" class="btn btn-warning m-1" row="3" col="3" />
+</GridLayout>

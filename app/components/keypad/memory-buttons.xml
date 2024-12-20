@@ -1,0 +1,6 @@
+<GridLayout columns="*, *, *, *" row="0">
+    <Button text="MC" tap="{{ memoryClear }}" class="btn btn-secondary m-1" col="0" />
+    <Button text="MR" tap="{{ memoryRecall }}" class="btn btn-secondary m-1" col="1" />
+    <Button text="M+" tap="{{ memoryAdd }}" class="btn btn-secondary m-1" col="2" />
+    <Button text="C" tap="{{ clear }}" class="btn btn-danger m-1" col="3" />
+</GridLayout>

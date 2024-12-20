@@ -1,0 +1,30 @@
+{
+  "name": "advanced-calculator",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "ns run android",
+    "ios": "ns run ios",
+    "build:android": "ns build android --release --key-store-path android-keystore.jks --key-store-password $KEYSTORE_PASSWORD --key-store-alias $KEYSTORE_ALIAS --key-store-alias-password $KEY_PASSWORD",
+    "build:ios": "ns build ios --release",
+    "clean": "ns clean"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.8.0",
+    "@nativescript/theme": "~3.0.2"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.8.0",
+    "@nativescript/ios": "8.8.0",
+    "@nativescript/types": "~8.8.0",
+    "@nativescript/webpack": "~5.0.18",
+    "typescript": "~5.4.0",
+    "@nativescript/tailwind": "^2.1.0",
+    "tailwindcss": "~3.4.0"
+  },
+  "nativescript": {
+    "id": "org.nativescript.calculator",
+    "templateVersion": "v8"
+  }
+}

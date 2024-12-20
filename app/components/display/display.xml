@@ -1,0 +1,4 @@
+<StackLayout class="calculator-display">
+    <include src="~/components/display/display-value.xml" />
+    <include src="~/components/display/history-list.xml" />
+</StackLayout>

@@ -1,0 +1,5 @@
+<ListView items="{{ history }}" height="100">
+    <ListView.itemTemplate>
+        <Label text="{{ $value }}" class="history-item" />
+    </ListView.itemTemplate>
+</ListView>

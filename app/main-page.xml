@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="bg-gray-100">
+    <ActionBar title="Advanced Calculator" class="bg-blue-600 text-white" />
+    
+    <GridLayout rows="auto, *, auto" class="p-2">
+        <include src="~/components/display/display.xml" row="0" />
+        <include src="~/components/keypad/keypad.xml" row="2" />
+    </GridLayout>
+</Page>

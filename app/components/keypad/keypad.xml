@@ -1,0 +1,4 @@
+<GridLayout rows="auto, auto" class="m-2">
+    <include src="~/components/keypad/memory-buttons.xml" row="0" />
+    <include src="~/components/keypad/number-buttons.xml" row="1" />
+</GridLayout>
